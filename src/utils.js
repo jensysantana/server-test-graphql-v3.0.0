@@ -11,7 +11,6 @@ function getTokenPayload(token) {
 }
 
 function getUserId(req) {
-    // console.log('req: ', req.headers.authorization);
     if (req) {
 
         const authHeader = req.headers.authorization;

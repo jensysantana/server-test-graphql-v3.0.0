@@ -38,7 +38,7 @@ async function sigin(parent, args, { prisma }) {
 }
 
 async function post(parent, args, { prisma, userId, pubsub }, info) {
-    // console.log('userId: ', userId);
+    console.log('userId: ', userId);
     // console.log('args: ', args);
 
     const newLink = await prisma.link.create({
