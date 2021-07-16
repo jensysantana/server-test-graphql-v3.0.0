@@ -81,3 +81,13 @@ const Subscription = require('./resolvers/Subscription');
     })
 
 })();
+
+
+
+// # query($username: String!){
+// #   user(name: $username){
+// #     id
+// #     login
+// #     avatar_url
+// #   }
+// # }
